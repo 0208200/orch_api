@@ -19,3 +19,5 @@ First, import the module and create an instance of the `OrchApi` class:
 from orch_api import OrchApi
 
 api = OrchApi(client_id, refresh_token, base_url)
+
+response,_ = api.get_all_assets()
